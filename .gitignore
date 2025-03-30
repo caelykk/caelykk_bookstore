@@ -1,0 +1,21 @@
+# Игнорируем виртуальное окружение
+venv/
+.venv/
+.env
+*.pyc
+__pycache__/
+
+# Лог-файлы
+*.log
+logs/
+
+# База данных SQLite (если используется)
+db.sqlite3
+
+# Конфиги IDE (PyCharm, VSCode)
+.vscode/
+.idea/
+
+# Pre-commit и кэш
+.mypy_cache/
+.pre-commit-config.yaml
